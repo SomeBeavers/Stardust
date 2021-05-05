@@ -6,4 +6,4 @@ Start writing here.
 
 ## Inner Header
 
-[link to another md file](MD_md1.md)
+[link to another md file](../MD_md1_renamed.md)
