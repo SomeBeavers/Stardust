@@ -7,6 +7,7 @@
                  start-page="About Sample Product.xml">
 
     <toc-element id="About Sample Product.xml"/>
+    <toc-element id="md4.md"/>
     <toc-element id="md1.md"/>
     <toc-element id="md2.md"/>
 </product-profile>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE product-profile
+        SYSTEM "https://resources.jetbrains.com/stardust/product-profile.dtd">
+
+<product-profile id="md"
+                 name="MD"
+                 start-page="MD-default.xml">
+
+    <toc-element id="MD_md1.md"/>
+    <toc-element id="MD_md2.md"/>
+</product-profile>

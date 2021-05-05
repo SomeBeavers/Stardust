@@ -7,4 +7,5 @@
     <images dir="images" version="1.0"/>
     <vars src="v.list"/>
     <product src="sp.tree" version="1.0"/>
+    <product src="md.tree"/>
 </ihp>
