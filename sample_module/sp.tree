@@ -6,7 +6,12 @@
                  name="Sample Product"
                  start-page="About Sample Product.xml">
 
-    <toc-element id="About Sample Product.xml"/>
+    <toc-element id="About Sample Product.xml">
+        <toc-element id="md5.md" custom-title="custom title for md5.md"/>
+        <toc-element custom-title="empty toc element">
+            <toc-element id="md6.md"></toc-element>
+        </toc-element>
+    </toc-element>
     <toc-element id="md4.md"/>
     <toc-element id="md1.md"/>
     <toc-element id="md2.md"/>
