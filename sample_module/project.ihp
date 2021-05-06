@@ -7,5 +7,9 @@
     <images dir="images" version="1.0"/>
     <vars src="v.list"/>
     <product src="sp.tree" version="1.0"/>
-    <product src="md.tree"/>
+    <settings>
+        <icon-cache type="build" location="config:Documentation_Supplementals_IconsMain,locator:2020.1,artifact:icons.zip!/iconmap.xml" enabled="true"/>
+        <keymap-cache type="build" location="config:Documentation_KeymapsExperimental,locator:2020.1" enabled="true"/>
+        <video-cache type="build" location="config:WebTeam_DataServer_Crawlers_YouTubeCrawler,locator:lastSuccessful,artifact:crawlers/data/video/data.json" enabled="true"/>
+    </settings>
 </ihp>

@@ -2,10 +2,3 @@
 <!DOCTYPE product-profile
         SYSTEM "https://resources.jetbrains.com/stardust/product-profile.dtd">
 
-<product-profile id="md"
-                 name="MD"
-                 start-page="MD_md1_renamed.md">
-
-    <toc-element id="MD_md1_renamed.md"/>
-    <toc-element id="MD_md2.md"/>
-</product-profile>

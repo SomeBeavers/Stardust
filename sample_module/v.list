@@ -3,4 +3,6 @@
     <var name="sample"
          value="Sometext"
          type="string"/>
+    <var name="Var_Title" product="sp" value="sp title"/>
+    <var name="Var_Title" product="md" value="md title"/>
 </vars>

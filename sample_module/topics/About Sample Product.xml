@@ -3,13 +3,27 @@
         SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        title="About Sample Product"
+        title="%Var_Title%"
         id="About Sample Product">
 
-    <p>Let's see what we have to say test  about test 1 new testing test Sample Product <a href=""></a> </p>
+    <p>%Var_Title% <a href="md5.md"></a> </p>
     <list>
         <li>Lorem ipsum dolor sit amet</li>
         <li>Consectetur adipiscing elit</li>
         <li>Sed do eiusmod tempor incididunt</li>
     </list>
+    <p>
+        Place the caret at the desired symbol and press
+        <shortcut>Ctrl</shortcut>.
+    </p>
+    <p product="!sp">
+        Alternatively, keeping
+            <shortcut>Shift</shortcut>
+            (<shortcut>⌘</shortcut> for macOS)
+        pressed, hover your mouse pointer
+        over the symbol.
+    </p>
+    <img src="beaver.jpg" alt="beaver"/>
+    <img src="crow.png" alt="beaver" animated="true"/>
+    <video src="ReSharper.mp4"/>
 </topic>
