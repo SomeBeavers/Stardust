@@ -16,6 +16,8 @@
         <toc-element id="Hidden.xml" hidden="true"/>
         <toc-element id="VirtualChapter.xml" show-structure-for="chapter"/>
         <toc-element id="VirtualProcedure.xml" show-structure-for="procedure"/>
+        <!--suppress AttributeValueVerifier -->
         <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure"/>
+        <toc-element id="DeleteMe.xml"></toc-element>
     </toc-element>
 </product-profile>
