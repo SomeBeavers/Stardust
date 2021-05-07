@@ -3,7 +3,9 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="DA Overview"
-       id="Dragon Age-default">
-<p> Link to misc : <a href="DA_Misc_renamed.xml"/> </p>
+       title="Virtual"
+       id="Virtual">
+
+    <chapter id="0chapter0"/>
+    <chapter id="1chapter0"/>
 </topic>
