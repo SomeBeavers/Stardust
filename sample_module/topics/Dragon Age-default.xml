@@ -5,5 +5,65 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="DA Overview"
        id="Dragon Age-default">
-<p> Link to misc : <a href="DA_Misc_renamed.xml"/> </p>
+
+    <p>
+        <emphasis>
+            "Men and women from every race; warriors and mages, barbarians and kings... the Grey Wardens sacrificed
+            everything to stem the tide of darkness... and prevailed."
+        </emphasis>
+        —Duncan, Warden-Commander of the Grey Wardens in Ferelden
+    </p>
+
+    <chapter title="Dragon Age: Origins" id="dragon-age-origins">
+        <p>
+            You are a Grey Warden, one of the last of a legendary order of guardians. With the return of an ancient foe and the kingdom engulfed in civil war, you have been chosen by fate to unite the shattered lands and slay an archdemon once and for all. Start your adventure by picking your race as a Human, Elf, or Dwarf, then your class as a Warrior, Mage, or Rogue. Then after that, it is all up to you. The choices you make guide the path you take through the Ninth Age: The Dragon Age.
+        </p>
+        <chapter title="Plot" id="plot">
+            <p>The player character—"the Warden"—is a new Grey Warden recruit within the realm of Ferelden, and begins their
+                journey to halt the inevitable Fifth Blight as one of the six origin stories.
+            </p>
+        </chapter>
+        <chapter title="Base title" id="base-title">
+            <title product="DA">Characters</title>
+            <chapter title="Main characters" id="main-characters">
+                <list>
+                    <li>The Warden: The protagonist, and the newest recruit of Ferelden's Grey Wardens.</li>
+                    <li>Queen Anora: The queen consort of King Cailan and daughter of Teyrn Loghain.</li>
+                    <li>Duncan: The Commander of the Grey in Ferelden. He recruits the protagonist to join the Wardens
+                        and serves as their mentor.
+                    </li>
+                    <li>Arl Eamon Guerrin: The Arl of Redcliffe and a major ally of Ferelden's Grey Wardens.</li>
+                    <li>Loghain Mac Tir: The teyrn of Gwaren, leader of the army of Ferelden and chief advisor to King
+                        Cailan.
+                    </li>
+                </list>
+            </chapter>
+            <chapter title="Companions" id="companions">
+                <list>
+                    <li>Alistair: A former templar initiate who was recruited into the Grey Wardens not long before the
+                        protagonist.
+                    </li>
+                    <li>Dog: The default name of a loyal Mabari War Hound who is a lifelong companion of a Warden from
+                        the Human Noble Origin. Characters from other Origins will have the opportunity recruit a
+                        different Mabari hound encountered in Ostagar.
+                    </li>
+                    <li>Leliana: A bard and cloistered sister from Orlais who sought refuge in Lothering and its
+                        Chantry.
+                    </li>
+                    <li>Morrigan: Known as a Witch of the Wilds, she is a shapeshifting apostate mage who lives in the
+                        Korcari Wilds.
+                    </li>
+                    <li>Oghren: A disgraced warrior caste dwarf who has fallen into alcoholism.</li>
+                    <li>Shale: A deactivated war golem found in Honnleath. (Requires Downloadable Content)</li>
+                    <li>Sten: A Qunari warrior of the Beresaad, the vanguard of the Qunari.</li>
+                    <li>Wynne: A senior enchanter in the Circle of Magi's tower, Kinloch Hold.</li>
+                    <li>Zevran Arainai: An elven assassin and member of the notorious Antivan Crows.</li>
+                </list>
+                <p>
+                    Go to anchor <a anchor="dragon-age-origins"></a>
+                </p>
+            </chapter>
+        </chapter>
+    </chapter>
+
 </topic>
