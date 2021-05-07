@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE product-profile
+        SYSTEM "https://resources.jetbrains.com/stardust/product-profile.dtd">
+
+<product-profile id="DA"
+                 name="Dragon Age"
+                 start-page="Dragon Age-default.xml">
+
+    <toc-element id="Dragon Age-default.xml"/>
+    <toc-element id="Dragon_Age__Origins.xml"/>
+    <toc-element id="Dragon_Age_2.md" custom-title="Dragon Age II (custom title)"/>
+    <toc-element id="Dragon_Age__Inquisition.md" toc-title="Dragon Age: Inquisition (TOC title only)"/>
+</product-profile>

@@ -7,6 +7,7 @@
     <images dir="images" version="1.0"/>
     <vars src="v.list"/>
     <product src="sp.tree" version="1.0"/>
+    <product src="DA.tree"/>
     <settings>
         <icon-cache type="build" location="config:Documentation_Supplementals_IconsMain,locator:2020.1,artifact:icons.zip!/iconmap.xml" enabled="true"/>
         <keymap-cache type="build" location="config:Documentation_KeymapsExperimental,locator:2020.1" enabled="true"/>
