@@ -5,7 +5,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="DA Overview"
        id="Dragon Age-default">
-
+    <excerpt>This information is displayed in the link popup</excerpt>
     <p>
         <emphasis>
             "Men and women from every race; warriors and mages, barbarians and kings... the Grey Wardens sacrificed
@@ -27,37 +27,42 @@
             <title product="DA">Characters</title>
             <chapter title="Main characters" id="main-characters">
                 <list>
-                    <li>The Warden: The protagonist, and the newest recruit of Ferelden's Grey Wardens.</li>
-                    <li>Queen Anora: The queen consort of King Cailan and daughter of Teyrn Loghain.</li>
-                    <li>Duncan: The Commander of the Grey in Ferelden. He recruits the protagonist to join the Wardens
+                    <li><keyword>The Warden</keyword>:
+                        <list type="horizontal">
+                            <li>The protagonist</li>
+                            <li>The newest recruit of Ferelden's Grey Wardens</li>
+                        </list>
+                    </li>
+                    <li><keyword>Queen Anora</keyword>: The queen consort of King Cailan and daughter of Teyrn Loghain.</li>
+                    <li><keyword>Duncan</keyword>: The Commander of the Grey in Ferelden. He recruits the protagonist to join the Wardens
                         and serves as their mentor.
                     </li>
-                    <li>Arl Eamon Guerrin: The Arl of Redcliffe and a major ally of Ferelden's Grey Wardens.</li>
-                    <li>Loghain Mac Tir: The teyrn of Gwaren, leader of the army of Ferelden and chief advisor to King
+                    <li><keyword>Arl Eamon Guerrin</keyword>: The Arl of Redcliffe and a major ally of Ferelden's Grey Wardens.</li>
+                    <li><keyword>Loghain Mac Tir</keyword>: The teyrn of Gwaren, leader of the army of Ferelden and chief advisor to King
                         Cailan.
                     </li>
                 </list>
             </chapter>
             <chapter title="Companions" id="companions" initial-collapse-state="collapsed">
-                <list>
-                    <li>Alistair: A former templar initiate who was recruited into the Grey Wardens not long before the
+                <list type="decimal">
+                    <li><keyword>Alistair</keyword>: A former templar initiate who was recruited into the Grey Wardens not long before the
                         protagonist.
                     </li>
-                    <li>Dog: The default name of a loyal Mabari War Hound who is a lifelong companion of a Warden from
+                    <li><keyword>Dog</keyword>: The default name of a loyal Mabari War Hound who is a lifelong companion of a Warden from
                         the Human Noble Origin. Characters from other Origins will have the opportunity recruit a
                         different Mabari hound encountered in Ostagar.
                     </li>
-                    <li>Leliana: A bard and cloistered sister from Orlais who sought refuge in Lothering and its
+                    <li><keyword>Leliana</keyword>: A bard and cloistered sister from Orlais who sought refuge in Lothering and its
                         Chantry.
                     </li>
-                    <li>Morrigan: Known as a Witch of the Wilds, she is a shapeshifting apostate mage who lives in the
+                    <li><keyword>Morrigan</keyword>: Known as a Witch of the Wilds, she is a shapeshifting apostate mage who lives in the
                         Korcari Wilds.
                     </li>
-                    <li>Oghren: A disgraced warrior caste dwarf who has fallen into alcoholism.</li>
-                    <li>Shale: A deactivated war golem found in Honnleath. (Requires Downloadable Content)</li>
-                    <li>Sten: A Qunari warrior of the Beresaad, the vanguard of the Qunari.</li>
-                    <li>Wynne: A senior enchanter in the Circle of Magi's tower, Kinloch Hold.</li>
-                    <li>Zevran Arainai: An elven assassin and member of the notorious Antivan Crows.</li>
+                    <li><keyword>Oghren</keyword>: A disgraced warrior caste dwarf who has fallen into alcoholism.</li>
+                    <li><keyword>Shale</keyword>: A deactivated war golem found in Honnleath. (Requires Downloadable Content)</li>
+                    <li><keyword>Sten</keyword>: A Qunari warrior of the Beresaad, the vanguard of the Qunari.</li>
+                    <li><keyword>Wynne</keyword>: A senior enchanter in the Circle of Magi's tower, Kinloch Hold.</li>
+                    <li><keyword>Zevran Arainai</keyword>: An elven assassin and member of the notorious Antivan Crows.</li>
                 </list>
                 <p>
                     Go to anchor <a anchor="dragon-age-origins"></a>

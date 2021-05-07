@@ -5,7 +5,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="Dragon Age: Origins"
        id="Dragon_Age__Origins">
-
+<p> <anchor name="fav-story1"/>Intro </p>
 <chapter title="Key features" id="key-features">
     <procedure style="choices" id="features-list">
         <step>
@@ -17,7 +17,10 @@
                 <li>Dwarf Commoner</li>
                 <li>Dwarf Noble</li>
                 <li>Human Noble</li>
-                <li>Magi</li>
+                <li>
+                    <anchor name="fav-story"/>
+                    Magi
+                </li>
             </list>
         </step>
         <step>Three base classes to choose from: rogue, warrior or mage.</step>
@@ -33,11 +36,51 @@
             zoomed out, although on the console editions, zooming, and therefore the isometric-style viewpoint, is
             unavailable.
         </step>
-        <step>Spell interactions (e.g. a blizzard spell can put out fires, and fire spells can ignite grease from a grease
+        <step>Spell interactions (for example a blizzard spell can put out fires, and fire spells can ignite grease from a grease
             spell).
         </step>
         <step>Depth-of-field effects which can be switched off via the options menu.</step>
     </procedure>
+    <tip>
+        <p>
+            <keyword>BioWare</keyword> has released a regular edition of Dragon Age: Origins as well as special editions for collectors.</p>
+    </tip>
+    <warning>
+        <p>
+            Dragon Age: Origins is the first <keyword>BioWare</keyword> game developed for the PlayStation 3
+        </p>
+    </warning>
+    <note>
+        <p>
+            The developers have cited "realistic" fantasy fiction such as George R. R. Martin's A Song of Ice and Fire series and fantasy paintings by artists such as Frank Frazetta as inspiration for the game.
+        </p>
+    </note>
 </chapter>
-
+    <chapter title="Links" id="links">
+        <p>
+            <a href="Dragon Age-default.xml"/>
+        </p>
+        <p>
+            <a href="Dragon Age-default.xml">DA starting page</a>
+        </p>
+        <p>
+            <a href="https://dragonage.fandom.com/wiki/Dragon_Age:_Origins">Link to wiki</a>
+        </p>
+        <p>
+            <a anchor="features-list">Link to Key features procedure</a>
+        </p>
+        <p>
+            <a anchor="fav-story">Link to Magi in list</a>
+        </p>
+    </chapter>
+    <chapter title="Downloadable content" id="downloadable-content">
+        <deflist>
+            <def title="A Tale of Orzammar">
+                Tapster's Tavern is the one place where all levels of the rigidly stratified Dwarven society can meet. As such, it is an excellent place for deals to be made - often of a somewhat illicit nature. You've heard word that a Dwarven Noble is looking to hire an adventurer for a small foray into the Deep Roads. It should pay well - and, perhaps give you some insight into the politics of Orzammar. Knowledge that can be worth far more than gold...
+            </def>
+            <def title="Warden's Keep">
+                Centuries before the events of Dragon Age: Origins, the Grey Wardens of Ferelden took up arms against their kingdom's rulers. This tumultuous event led to the expulsion of the Grey Wardens from Ferelden, leaving their ancient fortress of Soldier's Peak to the ravages of time. This downloadable content provides the Warden with an opportunity to aid Levi Dryden in redeeming his family name by proving that Sophia Dryden, his great great grandmother and commander of the Grey Wardens at Soldier's Peak, acted honorably.
+            </def>
+        </deflist>
+    </chapter>
 </topic>
