@@ -14,6 +14,8 @@
     <toc-element toc-title="empty toc-element">
         <toc-element id="Draft.md" draft="true"/>
         <toc-element id="Hidden.xml" hidden="true"/>
-        <toc-element id="Virtual.xml"/>
+        <toc-element id="VirtualChapter.xml" show-structure-for="chapter"/>
+        <toc-element id="VirtualProcedure.xml" show-structure-for="procedure"/>
+        <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure"/>
     </toc-element>
 </product-profile>

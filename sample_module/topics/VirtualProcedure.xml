@@ -3,9 +3,13 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Virtual"
-       id="Virtual">
+       title="VirtualProcedure"
+       id="VirtualProcedure">
 
-    <chapter id="0chapter0"/>
-    <chapter id="1chapter0"/>
+    <procedure title="Procedure">
+        <step>Step 1.</step>
+        <step>Step 2.</step>
+        <step>(Optional) Step 3.</step>
+    </procedure>
+
 </topic>

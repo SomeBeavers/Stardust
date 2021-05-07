@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="VirtualChapter"
+       id="VirtualChapter" auxiliary-id="Virtual">
+
+    <chapter id="0chapter0" title="Chapter 1">
+        Chapter 1 text
+    </chapter>
+    <chapter id="1chapter0" title="Chapter 2">
+        Chapter 2 text
+    </chapter>
+    <chapter id="2chapter0" title="Chapter 3">
+        Chapter 3 text
+    </chapter>
+</topic>
