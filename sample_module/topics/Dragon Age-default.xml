@@ -38,7 +38,7 @@
                     </li>
                 </list>
             </chapter>
-            <chapter title="Companions" id="companions">
+            <chapter title="Companions" id="companions" initial-collapse-state="collapsed">
                 <list>
                     <li>Alistair: A former templar initiate who was recruited into the Grey Wardens not long before the
                         protagonist.
@@ -64,6 +64,13 @@
                 </p>
             </chapter>
         </chapter>
+        <chapter title="Gameplay (level 1)" id="gameplay" level="1" initial-collapse-state="expanded">
+            <p>
+                The designers incorporated origin stories for each race and some classes in the game. For example, a dwarf who is a member of the noble caste will begin the game as part of the royal family in one of the dwarven cities, while a dwarf commoner will begin on the streets of the city. Origin stories provide an introduction to the game world and hours of gameplay. People that the Warden meets during the origin story may reappear throughout the game, some of whom may be adversaries.
+            </p>
+        </chapter>
+
+        <p><a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a> </p>
     </chapter>
 
 </topic>

@@ -6,6 +6,38 @@
        title="Dragon Age: Origins"
        id="Dragon_Age__Origins">
 
-
+<chapter title="Key features" id="key-features">
+    <procedure style="choices" id="features-list">
+        <step>
+            <p>Six unique origin stories, each with a story that affects the game as a whole:
+            </p>
+            <list type="decimal">
+                <li>City Elf</li>
+                <li>Dalish Elf</li>
+                <li>Dwarf Commoner</li>
+                <li>Dwarf Noble</li>
+                <li>Human Noble</li>
+                <li>Magi</li>
+            </list>
+        </step>
+        <step>Three base classes to choose from: rogue, warrior or mage.</step>
+        <step>Three playable races: dwarf, human, and elf.</step>
+        <step>Party-based gameplay with the player's character, plus up to three other characters chosen from a larger
+            pool
+            during the game.
+        </step>
+        <step>Combat is real-time pause-and-play tactical. This means that you select an enemy to begin attacking
+            automatically, and at any point can pause the game to select commands.
+        </step>
+        <step>The camera provides an over-the-shoulder viewpoint when zoomed in, or an isometric-style viewpoint when
+            zoomed out, although on the console editions, zooming, and therefore the isometric-style viewpoint, is
+            unavailable.
+        </step>
+        <step>Spell interactions (e.g. a blizzard spell can put out fires, and fire spells can ignite grease from a grease
+            spell).
+        </step>
+        <step>Depth-of-field effects which can be switched off via the options menu.</step>
+    </procedure>
+</chapter>
 
 </topic>
