@@ -17,7 +17,7 @@
         <toc-element id="VirtualChapter.xml" show-structure-for="chapter"/>
         <toc-element id="VirtualProcedure.xml" show-structure-for="procedure"/>
         <!--suppress AttributeValueVerifier -->
-        <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure"/>
-        <toc-element id="DeleteMe.xml"></toc-element>
+        <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure" accepts-web-file-names-ref="7edb159c"/>
+        <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
     </toc-element>
 </product-profile>
