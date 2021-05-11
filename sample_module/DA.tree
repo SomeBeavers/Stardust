@@ -10,6 +10,7 @@
     <toc-element id="Dragon_Age__Origins.xml"/>
     <toc-element id="Dragon_Age_2.md" custom-title="Dragon Age II (custom title)"/>
     <toc-element id="Dragon_Age__Inquisition.md" toc-title="Dragon Age: Inquisition (TOC title only)"/>
+    <toc-element id="Dragon_Age__Inquisiotion_XML.xml"/>
     <toc-element id="DA_Misc_renamed.xml"/>
     <toc-element toc-title="empty toc-element">
         <toc-element id="Draft.md" draft="true"/>
