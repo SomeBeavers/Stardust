@@ -5,7 +5,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="Dragon Age: Origins"
        id="Dragon_Age__Origins">
-<p> <anchor name="fav-story1"/>Intro </p>
 <chapter title="Key features" id="key-features">
     <procedure style="choices" id="features-list">
         <step>
@@ -23,7 +22,7 @@
                 </li>
             </list>
         </step>
-        <step>Three base classes to choose from: rogue, warrior or mage.</step>
+        <step>Three base classes to choose from: <path>.rogue</path>, <path>.warrior</path> or <path>.mage</path>.</step>
         <step>Three playable races: dwarf, human, and elf.</step>
         <step>Party-based gameplay with the player's character, plus up to three other characters chosen from a larger
             pool
@@ -43,16 +42,18 @@
     </procedure>
     <tip>
         <p>
-            <keyword>BioWare</keyword> has released a regular edition of Dragon Age: Origins as well as special editions for collectors.</p>
+            <keyword>BioWare</keyword> has released a regular edition of <control>Dragon Age: Origins</control> as well as special editions for collectors.</p>
     </tip>
     <warning>
         <p>
-            Dragon Age: Origins is the first <keyword>BioWare</keyword> game developed for the PlayStation 3
+            <control>Dragon Age: Origins</control> is the first <keyword>BioWare</keyword> game developed for the PlayStation 3
         </p>
     </warning>
     <note>
         <p>
-            The developers have cited "realistic" fantasy fiction such as George R. R. Martin's A Song of Ice and Fire series and fantasy paintings by artists such as Frank Frazetta as inspiration for the game.
+            The developers have cited "realistic" fantasy fiction such as <emphasis>George R. R. Martin's A Song of Ice and
+            Fire
+        </emphasis> series and fantasy paintings by artists such as Frank Frazetta as inspiration for the game.
         </p>
     </note>
 </chapter>
@@ -67,10 +68,17 @@
             <a href="https://dragonage.fandom.com/wiki/Dragon_Age:_Origins">Link to wiki</a>
         </p>
         <p>
+            <menupath>Origins | Key Features | Features list</menupath>
             <a anchor="features-list">Link to Key features procedure</a>
         </p>
         <p>
             <a anchor="fav-story">Link to Magi in list</a>
+        </p>
+        <p>
+            <a href="Dragon Age-default.xml" anchor="gameplay"> Link to another page with anchor</a>
+        </p>
+        <p>
+            <a href="NotExisting.xml" nullable="true"> Link to not existing page</a>
         </p>
     </chapter>
     <chapter title="Downloadable content" id="downloadable-content">
@@ -83,4 +91,18 @@
             </def>
         </deflist>
     </chapter>
+
+    <seealso>
+        <category ref="DA1">
+            <a href="Dragon Age-default.xml">Category 1. Link 2</a>
+        </category>
+        <category ref="DA2">
+            <a href="Dragon_Age_2.md">Category 2. Link 1</a>
+            <a href="Dragon Age-default.xml">Category 2. Link 2</a>
+        </category>
+        <category ref="DA3">
+            <a href="Dragon_Age__Inquisition.md">Category 3. Link 1</a>
+            <a href="Dragon Age-default.xml">Category 3. Link 2</a>
+        </category>
+    </seealso>
 </topic>

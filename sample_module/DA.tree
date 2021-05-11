@@ -19,5 +19,6 @@
         <!--suppress AttributeValueVerifier -->
         <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure" accepts-web-file-names-ref="7edb159c"/>
         <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
+        <toc-element id="Code_Snippets.xml"/>
     </toc-element>
 </product-profile>

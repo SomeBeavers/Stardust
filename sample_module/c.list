@@ -2,5 +2,10 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/stardust/categories.dtd">
 <categories>
-    <category id="" name="See Also" order="1"/>
+    <category id="DA1" name="DA1"
+              order="1"/>
+    <category id="DA2" name="DA2"
+              order="2"/>
+    <category id="DA3" name="DA3"
+              order="3"/>
 </categories>

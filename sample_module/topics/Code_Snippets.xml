@@ -3,9 +3,25 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="DeleteMe2.xml"
-       id="DeleteMe2">
+       title="Code Snippets"
+       id="Code_Snippets">
 
-    <p>Start writing here.</p>
+    <code style="block" lang="xml"><![CDATA[
+        <tip>
+            <p>
+                Tip sample
+            </p>
+        </tip>
+        ]]>
+    </code>
+
+    <code style="block" lang="c#">
+        private void Test()
+        {
+        }
+    </code>
+
+    <code style="inline"></code>
     <p><a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a> </p>
+
 </topic>
