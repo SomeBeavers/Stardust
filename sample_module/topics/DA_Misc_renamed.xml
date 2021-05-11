@@ -6,6 +6,49 @@
        title="DA_Misc (title changed in xml)"
        id="DA_Misc_renamed" auxiliary-id="DA_Misc">
 
-    <p>Start writing here.</p>
+    <section-starting-page>
+        <title>Section starting page title</title>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            condimentum feugiat sagittis.
+        </description>
+
+        <tip-group>
+            <title>
+                Title
+            </title>
+            <a href="Dragon Age-default.xml"
+               description="Overview of DA series (link)" type="start"/>
+        </tip-group>
+
+        <main-group>
+            <title>DA: Origins</title>
+            <a href="Dragon_Age__Origins.xml"
+               description="DA: Origins (link)"
+            type="install"/>
+        </main-group>
+
+        <highlighted-group>
+            <title>Highlighted group</title>
+            <a href="Dragon_Age__Inquisiotion_XML.xml"
+               description="DA: Inquisition xml (link)"/>
+        </highlighted-group>
+
+        <custom-groups>
+            <group type="cards">
+                <title>Custom cards</title>
+                <a href="Dragon_Age_2.md"
+                   description="DA II md (link)"/>
+            </group>
+
+            <group type="links" display="wide">
+                <link-collection>
+                    <title>Custom links</title>
+                    <a href="Dragon_Age__Inquisition.md"
+                       description="DA: Inquisition md (link)"/>
+                </link-collection>
+            </group>
+        </custom-groups>
+    </section-starting-page>
 
 </topic>

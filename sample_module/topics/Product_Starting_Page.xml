@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Product Starting Page"
+       id="Product_Starting_Page">
+
+    <product-starting-page>
+        <title>Section starting page</title>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed condimentum feugiat sagittis.
+        </description>
+
+        <tip-group>
+            <a href="Code_samples.xml"
+               description="Read more about code snippets" type="start">Code snippets</a>
+            <a href="Links.xml" type="install"/>
+        </tip-group>
+
+        <articles-group>
+            <title>Main group</title>
+            <a href="Code_samples.xml"
+               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+            ...
+        </articles-group>
+
+        <links-group>
+            <title>Highlighted group</title>
+            <a href="Code_samples.xml"
+               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+            ...
+        </links-group>
+
+        <tutorials-group>
+            <title>Highlighted group</title>
+            <a href="Code_samples.xml"
+               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+            ...
+        </tutorials-group>
+    </product-starting-page>
+
+</topic>

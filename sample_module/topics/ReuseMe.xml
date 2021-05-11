@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="ReuseMe"
+       id="ReuseMe">
+
+    <img src="DA.png" alt="DA" id="reuse_DA_img" width="100"></img>
+
+    <chunk id="reuse_Duncan_qute">
+        <var name="local_var" product="DA" value="I'm in DA !!!"/>
+        <var name="local_var" product="sp" value="I'm in sp -_- "/>
+        <microformat>
+
+            <p>
+                <emphasis>
+                    "Men and women from every race; warriors and mages, barbarians and kings... the Grey Wardens sacrificed
+                    everything to stem the tide of darkness... and prevailed."
+                </emphasis>
+            </p>
+            <p>
+                —Duncan, Warden-Commander of the Grey Wardens in Ferelden
+            </p>
+            <p>
+                <emphasis>%local_var%</emphasis>
+            </p>
+            <p>
+                <var name="local_var" product="sp" value="Override local var in sp "/>
+                <var name="local_var" product="DA" value="Override local var in DA "/>
+                <emphasis>NEW: %local_var%</emphasis>
+            </p>
+            <p>
+                <emphasis>%edition%</emphasis>
+            </p>
+            <p>
+                <emphasis>%\\edition%</emphasis>
+            </p>
+        </microformat>
+    </chunk>
+
+    <p product="DA,sp">
+        Let's look at pics:
+        <for product="DA">
+            <img src="crow.png" alt="crow" width="300" animated="true"/>
+        </for>
+        <for product="!DA">
+            <img src="beaver.jpg" alt="beaver" width="200" animated="true"/>
+        </for>
+    </p>
+    <list id="list">
+        <li filter="1">Element one</li>
+        <li filter="2">Element two</li>
+        <li filter="3">Element three</li>
+        <li filter="4">Element four</li>
+        <li>Element five</li>
+    </list>
+
+</topic>

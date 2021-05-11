@@ -1,6 +1,6 @@
 [//]: # (title: Dragon Age 2)
-
-# Plot 
+<include src="ReuseMe.xml" include-id="reuse_DA_img"/>
+# Plot
 
 <tip>
 <p>
@@ -140,6 +140,6 @@ Quote break.
 <code lang="">
 private void Test(){}
 </code>
-<img src="beaver.jpg" alt="beaver"/>
+<img src="beaver.jpg" alt="beaver" animated="true"/>
 
 ## End

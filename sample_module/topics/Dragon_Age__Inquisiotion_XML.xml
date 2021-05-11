@@ -5,7 +5,210 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="Dragon Age: Inquisiotion XML"
        id="Dragon_Age__Inquisiotion_XML">
+    <include src="ReuseMe.xml" include-id="reuse_DA_img"/>
+    <microformat>
+        <p>
+            <emphasis>Dragon Age: Inquisition</emphasis>
+            is <keyword>BioWare</keyword>'s third installment in the <emphasis>Dragon Age</emphasis> video game series,
+            continuing the journey
+            throughout the medieval-themed continent of Thedas introduced in Dragon Age: Origins and Dragon Age II.
+        </p>
+    </microformat>
+<!--    <tip-of-the-day>-->
+<!--        <p>-->
+<!--            Tip-->
+<!--        </p>-->
+<!--    </tip-of-the-day>-->
+    <chapter title="Characters" id="characters">
+        <img src="Inquisition_members.png" alt="members" width="500"/>
+        <tabs>
+            <tab title="Major Characters">
+                <list>
+                    <li>The Inquisitor: The protagonist of the game and leader of the Inquisition.
+                        <img src="inquisitor.jpg" alt="inquisitior" width="300" border-effect="shadow"/>
+                    </li>
+                    <li>
+                        Cullen Rutherford: Advisor to the Inquisitor and a Knight-Captain of the Templar Order, who
+                        witnessed the deeds of both the Hero of Ferelden and the Champion of Kirkwall. He leads the
+                        Inquisition's military forces.
+                        <img src="cullen.png" alt="Cullen" animated="true" width="300"></img>
+                    </li>
+                    <li>Elder One: A mysterious entity who is served by the Venatori and the Red Templars.
+                        <img src="corypheus.png" alt="Elder One" animated="true" width="300"></img>
+                    </li>
+                    <li>Josephine Montilyet: Advisor to the Inquisitor, a skilled diplomat and an old friend of
+                        Leliana.
+                        <icon src="resources.idea-eap.png" alt="Resources Idea Eap"></icon>
+                        <icon src="not-existing.png" alt="Not existing icon" nullable="true"></icon>
+                    </li>
+                    <li>Leliana: Advisor to the Inquisitor, the Left Hand of the Divine and, depending on player choice,
+                        former companion of the Hero of Ferelden. She leads the clandestine division of the Inquisition
+                        responsible for espionage and assassination.
+                        <video src="ReSharper.mp4" preview-src="ReSharper.jpg"></video>
+                        <video src="ReSharper.mp4"></video>
+                    </li>
+                    <li>Morrigan: A Witch of the Wilds, a shapeshifting apostate mage, and former companion of the Hero
+                        of Ferelden. She disappeared at the end of the Fifth Blight and reappeared years later as the
+                        arcane advisor to Empress Celene.
+                        <video href="qQovAuIz7wg"></video>
+                    </li>
+                </list>
+            </tab>
+            <tab title="Companions">
+                <procedure style="steps" title="Characters" hide-from-structure="true">
+                    <step>
+                        <shortcut key="$Copy"></shortcut>
+                        <shortcut>Ctrl + B, W</shortcut>
+                        Blackwall: A Grey Warden of Orlais.
+                    </step>
+                    <step>Cassandra Pentaghast: The Right Hand of the Divine and one of the last loyal members of the
+                        Seekers of Truth.
+                    </step>
+                    <step>Cole: A mysterious ghost-like rogue, first introduced in Dragon Age: Asunder.</step>
+                    <step>Dorian Pavus: An Altus mage from the Tevinter Imperium.</step>
+                    <step>Iron Bull: A Qunari mercenary and agent of the Ben-Hassrath.</step>
+                    <step>Sera: An elven archer and member of the enigmatic group of rogues known as the Friends of Red
+                        Jenny.
+                    </step>
+                    <step>Solas: An apostate elven mage and expert on the Fade.</step>
+                    <step>Varric Tethras: A dwarven rogue and member of the Merchant's Guild. He is a consummate
+                        storyteller and former companion of the Champion of Kirkwall.
+                    </step>
+                    <step>Vivienne: A Loyalist Circle mage and First Enchanter of Montsimmard as well as Enchantress to
+                        the Imperial Court of Orlais.
+                    </step>
+                </procedure>
+            </tab>
+            <tab title="Secondary Characters">
+                <table>
+                    <tr>
+                        <td>Name: Description</td>
+                    </tr>
+                    <tr>
+                        <td>Alexius: A member of the Magisterium who leads a band of Venatori into Redcliffe.</td>
+                    </tr>
+                    <tr>
+                        <td>Alistair (conditional): A Grey Warden, former companion of the Hero of Ferelden and,
+                            depending on player choice, King of Ferelden.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Anora (conditional): Queen of Ferelden, depending on player choice.</td>
+                    </tr>
+                    <tr>
+                        <td>Briala: Ambassador for the elves of Orlais.</td>
+                    </tr>
+                    <tr>
+                        <td>Calpernia (conditional): Leader of the Venatori on behalf of the Elder One.</td>
+                    </tr>
+                    <tr>
+                        <td>Celene Valmont I: Empress of Orlais.</td>
+                    </tr>
+                    <tr>
+                        <td>Clarel: Warden-Commander of Orlais.</td>
+                    </tr>
+                    <tr>
+                        <td>Dagna: A smith caste dwarf or scholar of the Circle of Magi, depending on player choice.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fiona: Former Grand Enchanter of the Circle of Magi, now leader of the mage rebellion. She
+                            is also Alistair's mother and a former Grey Warden.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Flemeth: The legendary Asha'bellanar, Witch of the Wilds, and mother of Morrigan.</td>
+                    </tr>
+                    <tr>
+                        <td>Gaspard de Chalons: Grand Duke of Orlais, rival of Celene in the Orlesian Civil War.</td>
+                    </tr>
+                    <tr>
+                        <td>Lace Harding: The dwarven head scout and lieutenant of the Inquisition.</td>
+                    </tr>
+                    <tr>
+                        <td>Hawke: The protagonist of Dragon Age II, Champion of Kirkwall and, depending on player
+                            choice, Viscount of Kirkwall.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Justinia V: Divine of the Andrastian Chantry.</td>
+                    </tr>
+                    <tr>
+                        <td>Loghain Mac Tir (conditional): Former Teyrn of Gwaren, father of Anora and, depending on
+                            player choice, companion to the Hero of Fereldan.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mother Giselle: A Chantry Mother and early supporter of the Inquisition.</td>
+                    </tr>
+                    <tr>
+                        <td>Samson (conditional): Leader of the Red Templars on behalf of the Elder One.</td>
+                    </tr>
+                    <tr>
+                        <td>Stroud (conditional): An Orlesian Grey Warden.</td>
+                    </tr>
+                </table>
+            </tab>
+        </tabs>
+    </chapter>
+    <chapter title="Gameplay and Combat"
+             section="Show Gameplay and Combat">
+        <list>
+            <li>Although touted as an "open world" game at E3 2013 presentation, the developers quickly clarified that
+                Inquisition is not an open world in the same way as The Elder Scrolls V: Skyrim, but instead simply
+                feature larger locations than Origins and Dragon Age II with more exploration freedom.[23] There are 10
+                large "open world" locations in the game. Gameplay continues post story completion, as opposed to
+                retroactive DLC such as in Dragon Age II.
+            </li>
+            <li>It is the first game in the series to feature mounts. The dialogue wheel, first featured in Dragon Age
+                II, returns. Like in Dragon Age II, the wheel displays the type of emotion that matches your dialogue
+                choice.
+            </li>
+            <li>As in both previous installments, the player character can be one of three classes: warrior, rogue, or
+                mage, with three specializations for each available later in the game. The player has the ability to
+                choose one of 4 playable races - human, dwarf, elf or qunari - of either male or female gender. Body
+                sliders are unavailable to customize the player character's physique; rather, the engine supports
+                differing body shapes for each race.[24] Two voice sets are available for each gender: in the
+                English-language version of the game, one has a British accent, and the other an American one.
+            </li>
+            <li>Like the Warden, the Warden-Commander, and Hawke in previous titles, the Inquisitor can recruit
+                companions. There are a total of 9 possible party members who can be recruited. All companions can be
+                customized via armor and in-class weapon style. Similar to Dragon Age: Origins, some companions can
+                leave the party if approval ratings are too low, and it is possible to only have one companion remaining
+                in the end.
+            </li>
+            <li>Part of the gameplay of Inquisition involves obtaining and maintaining power in various regions of the
+                map. In part, this is done through strongholds, which can be seized and used to accomplish various
+                tasks, and which serve as a hub for promoting the interests of the Inquisition.
+            </li>
+            <li>While playing, the GUI for Inquisition includes a radar displaying important points and foes. The game
+                can be played using a tactical camera view (where the party is controlled from overhead), or from the
+                third person.
+            </li>
+            <li>Combat in Dragon Age: Inquisition has a greater focus on strategy than does Dragon Age II. Party health
+                doesn't regenerate automatically after an encounter as it did in Dragon Age II and Dragon Age: Origins,
+                and mage characters are not able to repeatedly cast, or "spam," healing spells. Similarly, the ability
+                to carry healing items is limited, though the maximum number can be increased by certain perks.
+            </li>
+            <li>With regards to the PC edition of Inquisition, the tactical quickbar is locked at 8 slots, because,
+                according to Laidlaw, "32 abilities (along with passives/upgrades) across the party provides a broad
+                spectrum of tactical options."[25]
+            </li>
+            <li>Griffon Wing Keep, A possible Inquisition stronghold</li>
+            <li>During fights, the environments may be exploited and manipulated to a greater degree than in Dragon Age
+                II. This capacity goes both ways, however. For example, a mage character may cast an "ice wall" spell to
+                create cover on a battlefield or hem an enemy into a corner—a similar idea to a mage casting a fire
+                spell after using a grease spell in Dragon Age: Origins—but the enemy may respond by melting the ice
+                wall, eliminating the player's advantage.
+            </li>
+        </list>
+    </chapter>
 
-    <p>Start writing here.</p>
+    <chapter title="Gallery"
+             section="Show Gallery">
+        <img src="DA1.jpg" alt="DA1" width="500"/>
+        <img src="DA2.jpg" alt="DA2" width="500"/>
+        <img src="DA3.jpg" alt="DA3" width="500"/>
+    </chapter>
 
 </topic>

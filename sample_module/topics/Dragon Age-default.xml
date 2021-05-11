@@ -3,23 +3,45 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="DA Overview"
-       id="Dragon Age-default">
+       title="%Var_Title%: DA Overview"
+       id="Dragon Age-default"
+       auxiliary-id="some.id">
     <excerpt>This information is displayed in the link popup</excerpt>
-    <p>
-        <emphasis>
-            "Men and women from every race; warriors and mages, barbarians and kings... the Grey Wardens sacrificed
-            everything to stem the tide of darkness... and prevailed."
-        </emphasis>
-        —Duncan, Warden-Commander of the Grey Wardens in Ferelden
-    </p>
+    <include src="ReuseMe.xml" include-id="reuse_DA_img"/>
+    <include src="ReuseMe.xml" include-id="reuse_Duncan_qute">
+        <var name="edition" product="DA" value="DA (local var in include)"/>
+        <var name="edition" product="sp" value="SP (local var in include)"/>
+    </include>
+    <include src="ReuseMe.xml"
+             include-id="list"
+             filter="2,4,empty"/>
 
-    <chapter title="Dragon Age: Origins" id="dragon-age-origins">
+
+    <chapter id="dragon-age-origins">
+        <title product="DA">[DA title] Dragon Age: Origins</title>
+        <title product="sp">[SP title] Dragon Age: Origins</title>
         <p>
-            You are a Grey Warden, one of the last of a legendary order of guardians. With the return of an ancient foe and the kingdom engulfed in civil war, you have been chosen by fate to unite the shattered lands and slay an archdemon once and for all. Start your adventure by picking your race as a Human, Elf, or Dwarf, then your class as a Warrior, Mage, or Rogue. Then after that, it is all up to you. The choices you make guide the path you take through the Ninth Age: The Dragon Age.
+            <tooltip tooltip="EAP">EAP</tooltip>
+            <emphasis tooltip="EAP">
+                EAP
+            </emphasis>
+            You are a Grey Warden, one of the last of a legendary order of guardians. With the return of an ancient foe
+            and the kingdom engulfed in civil war, you have been chosen by fate to unite the shattered lands and slay an
+            archdemon once and for all. Start your adventure by picking your race as a Human, Elf, or Dwarf, then your
+            class as a Warrior, Mage, or Rogue. Then after that, it is all up to you. The choices you make guide the
+            path you take through the Ninth Age: The Dragon Age.
+        </p>
+        <p>
+            Here is the property value:
+            <control>
+                <property bundle="default.bundle"
+                          key="warnings.errors"
+                          args="5,0"/>
+            </control>
         </p>
         <chapter title="Plot" id="plot">
-            <p>The player character—"the Warden"—is a new Grey Warden recruit within the realm of Ferelden, and begins their
+            <p>The player character—"the Warden"—is a new Grey Warden recruit within the realm of Ferelden, and begins
+                their
                 journey to halt the inevitable Fifth Blight as one of the six origin stories.
             </p>
         </chapter>
@@ -33,52 +55,107 @@
                             <li>The newest recruit of Ferelden's Grey Wardens</li>
                         </list>
                     </li>
-                    <li><keyword>Queen Anora</keyword>: The queen consort of King Cailan and daughter of Teyrn Loghain.</li>
-                    <li><keyword>Duncan</keyword>: The Commander of the Grey in Ferelden. He recruits the protagonist to join the Wardens
+                    <li><keyword>Queen Anora</keyword>: The queen consort of King Cailan and daughter of Teyrn Loghain.
+                    </li>
+                    <li><keyword>Duncan</keyword>: The Commander of the Grey in Ferelden. He recruits the protagonist to
+                        join the Wardens
                         and serves as their mentor.
                     </li>
-                    <li><keyword>Arl Eamon Guerrin</keyword>: The Arl of Redcliffe and a major ally of Ferelden's Grey Wardens.</li>
-                    <li><keyword>Loghain Mac Tir</keyword>: The teyrn of Gwaren, leader of the army of Ferelden and chief advisor to King
+                    <li><keyword>Arl Eamon Guerrin</keyword>: The Arl of Redcliffe and a major ally of Ferelden's Grey
+                        Wardens.
+                    </li>
+                    <li><keyword>Loghain Mac Tir</keyword>: The teyrn of Gwaren, leader of the army of Ferelden and
+                        chief advisor to King
                         Cailan.
                     </li>
                 </list>
             </chapter>
             <chapter title="Companions" id="companions" initial-collapse-state="collapsed">
                 <list type="decimal">
-                    <li><keyword>Alistair</keyword>: A former templar initiate who was recruited into the Grey Wardens not long before the
+                    <li><keyword>Alistair</keyword>: A former templar initiate who was recruited into the Grey Wardens
+                        not long before the
                         protagonist.
                     </li>
-                    <li><keyword>Dog</keyword>: The default name of a loyal Mabari War Hound who is a lifelong companion of a Warden from
+                    <li><keyword>Dog</keyword>: The default name of a loyal Mabari War Hound who is a lifelong companion
+                        of a Warden from
                         the Human Noble Origin. Characters from other Origins will have the opportunity recruit a
                         different Mabari hound encountered in Ostagar.
                     </li>
-                    <li><keyword>Leliana</keyword>: A bard and cloistered sister from Orlais who sought refuge in Lothering and its
+                    <li><keyword>Leliana</keyword>: A bard and cloistered sister from Orlais who sought refuge in
+                        Lothering and its
                         Chantry.
                     </li>
-                    <li><keyword>Morrigan</keyword>: Known as a Witch of the Wilds, she is a shapeshifting apostate mage who lives in the
+                    <li><keyword>Morrigan</keyword>: Known as a Witch of the Wilds, she is a shapeshifting apostate mage
+                        who lives in the
                         Korcari Wilds.
                     </li>
-                    <li><keyword>Oghren</keyword>: A disgraced warrior caste dwarf who has fallen into alcoholism.</li>
-                    <li><keyword>Shale</keyword>: A deactivated war golem found in Honnleath. (Requires Downloadable Content)</li>
-                    <li><keyword>Sten</keyword>: A Qunari warrior of the Beresaad, the vanguard of the Qunari.</li>
-                    <li><keyword>Wynne</keyword>: A senior enchanter in the Circle of Magi's tower, Kinloch Hold.</li>
-                    <li><keyword>Zevran Arainai</keyword>: An elven assassin and member of the notorious Antivan Crows.</li>
+                    <li><keyword>Oghren</keyword>: A disgraced warrior caste dwarf who has fallen into alcoholism.
+                    </li>
+                    <li><keyword>Shale</keyword>: A deactivated war golem found in Honnleath. (Requires Downloadable
+                        Content)
+                    </li>
+                    <li><keyword>Sten</keyword>: A Qunari warrior of the Beresaad, the vanguard of the Qunari.
+                    </li>
+                    <li><keyword>Wynne</keyword>: A senior enchanter in the Circle of Magi's tower, Kinloch Hold.
+                    </li>
+                    <li><keyword>Zevran Arainai</keyword>: An elven assassin and member of the notorious Antivan Crows.
+                    </li>
                 </list>
                 <p>
-                    Go to anchor <a anchor="dragon-age-origins"></a>
+                    Go to anchor
+                    <a anchor="dragon-age-origins"></a>
                 </p>
             </chapter>
         </chapter>
         <chapter title="Gameplay (level 1)" id="gameplay" level="1" initial-collapse-state="expanded">
             <p>
-                The designers incorporated origin stories for each race and some classes in the game. For example, a dwarf who is a member of the noble caste will begin the game as part of the royal family in one of the dwarven cities, while a dwarf commoner will begin on the streets of the city. Origin stories provide an introduction to the game world and hours of gameplay. People that the Warden meets during the origin story may reappear throughout the game, some of whom may be adversaries.
+                The designers incorporated origin stories for each race and some classes in the game. For example, a
+                dwarf who is a member of the noble caste will begin the game as part of the royal family in one of the
+                dwarven cities, while a dwarf commoner will begin on the streets of the city. Origin stories provide an
+                introduction to the game world and hours of gameplay. People that the Warden meets during the origin
+                story may reappear throughout the game, some of whom may be adversaries.
             </p>
         </chapter>
 
-        <p><a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a> </p>
+        <p>
+            <a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a>
+        </p>
     </chapter>
-    <chapter title="">
-
+    <chapter title="Storyline" id="storyline">
+        <table>
+            <tr>
+                <td>
+                    Location
+                </td>
+                <td>
+                    Description
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ostagar
+                </td>
+                <td>
+                    The Warden and Duncan travel to Ostagar to meet with King Cailan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Interlude: Flemeth's Hut
+                </td>
+                <td>
+                    The Warden awakens in Flemeth's hut
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lothering
+                </td>
+                <td>
+                    The Warden reaches Lothering only to find the town in chaos
+                </td>
+            </tr>
+        </table>
     </chapter>
 
 </topic>

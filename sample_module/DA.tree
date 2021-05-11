@@ -4,22 +4,29 @@
 
 <product-profile id="DA"
                  name="Dragon Age"
-                 start-page="Dragon Age-default.xml">
+                 start-page="Product_Starting_Page.xml">
 
     <toc-element id="Dragon Age-default.xml"/>
     <toc-element id="Dragon_Age__Origins.xml"/>
     <toc-element id="Dragon_Age_2.md" custom-title="Dragon Age II (custom title)"/>
-    <toc-element id="Dragon_Age__Inquisition.md" toc-title="Dragon Age: Inquisition (TOC title only)"/>
+    <toc-element id="Dragon_Age__Inquisition.md" toc-title="Dragon Age: Inquisition (TOC title only)"
+                 include-id="da_inquisition_md"/>
     <toc-element id="Dragon_Age__Inquisiotion_XML.xml"/>
     <toc-element id="DA_Misc_renamed.xml"/>
+    <toc-element id="Product_Starting_Page.xml"/>
     <toc-element toc-title="empty toc-element">
         <toc-element id="Draft.md" draft="true"/>
+        <toc-element id="ReuseMe.xml"/>
         <toc-element id="Hidden.xml" hidden="true"/>
         <toc-element id="VirtualChapter.xml" show-structure-for="chapter"/>
         <toc-element id="VirtualProcedure.xml" show-structure-for="procedure"/>
         <!--suppress AttributeValueVerifier -->
-        <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure" accepts-web-file-names-ref="7edb159c"/>
-        <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
-        <toc-element id="Code_Snippets.xml"/>
+        <toc-element id="EmptyVirtualProcedure.xml" show-structure-for="procedure"
+                     accepts-web-file-names-ref="7edb159c"/>
+        <chunk include-id="reuse_topics">
+            <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
+            <toc-element id="Code_Snippets.xml"/>
+        </chunk>
+
     </toc-element>
 </product-profile>

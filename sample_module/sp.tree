@@ -13,8 +13,11 @@
             <toc-element id="md6.md"/>
         </toc-element>
     </toc-element>
-    <toc-element id="Dragon Age-default.xml"/>
+    <toc-element id="Dragon Age-default.xml">
+        <include from="DA" target="da_inquisition_md"/>
+    </toc-element>
     <toc-element id="md4.md" custom-title="small markdown (custom title)"/>
     <toc-element id="md1.md"/>
     <toc-element id="All_Md.md" toc-title="all markdown (TOC only title)"/>
+    <include from="DA" target="reuse_topics"/>
 </product-profile>

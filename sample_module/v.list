@@ -5,4 +5,5 @@
          type="string"/>
     <var name="Var_Title" product="sp" value="sp title"/>
     <var name="Var_Title" product="md" value="md title"/>
+    <var name="Var_Title" product="DA" value="DA title"/>
 </vars>
