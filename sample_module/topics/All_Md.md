@@ -132,7 +132,7 @@ Quote break.
 
 <p> cool test <a href="md4.md"></a></p>
 <code>
-private void Test(){}
+private void Test<T>(){}
 </code>
 <img src="beaver.jpg" alt="beaver"/>
 
