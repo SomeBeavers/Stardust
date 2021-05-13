@@ -6,23 +6,31 @@
        title="Code Snippets"
        id="Code_Snippets">
 
-    <code style="block" lang="xml" initial-collapse-state="collapsed" collapsed-title="CDATA"><![CDATA[
-        <tip>
-            <p>
-                Tip sample
-            </p>
-        </tip>
-        ]]>
-    </code>
+    <code style="block" lang="xml" initial-collapse-state="expanded" collapsed-title="CDATA">
+        &lt;tip&gt;
+            &lt;p&gt;
+                                &quot;Tip sample&quot;
+            &lt;/p&gt;
+        &lt;/tip&gt;
+</code>
 
     <code style="block" lang="c#">
-        private void Test()
-        {
-        }
+        &lt;text in>
     </code>
+    <p>
+        <emphasis>&lt;text in></emphasis>
+    </p>
+<!--    <code lang="c#">-->
+<!--        private void Test<string>()-->
+<!--        {-->
+<!--        }-->
+<!--    </code>-->
 
     <code style="inline" lang="c#">
-        class A{}
+
+        class A&lt;T&gt;{
+        }
+
     </code>
     <p>
         <a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a>
@@ -55,6 +63,7 @@
         <code style="block" lang="vb.net" src="VB1.vb" lines="4,5,6">
 
         </code>
+
     </chapter>
 
     <compare title-before="Before1" title-after="After1" style="top-bottom">
@@ -75,9 +84,23 @@
           kotlin-runnable="true"
           kotlin-version="1.3">
         <![CDATA[
-        @JvmStatic fun main(args: Array<String>) {
+        @JvmStatic
+        fun main(args: Array<String>) {
             println("Hi!")
         }
         ]]>
     </code>
+
+<!--        <code style="block" lang="c#">-->
+<!--            #nullable enable-->
+<!--            class GenericClass<T> where T: new()-->
+<!--            {-->
+<!--            public void GenMethod<U>() where U : class-->
+<!--            {-->
+<!--            var count = new List<T>().Count;-->
+<!--            string s = "<tip>";-->
+<!--            }-->
+<!--            }-->
+<!--        </code>-->
+
 </topic>

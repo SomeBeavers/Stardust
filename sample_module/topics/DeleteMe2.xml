@@ -8,4 +8,9 @@
 
     <p>Start writing here.</p>
     <p><a href="Dragon_Age__Origins.xml" anchor="features-list">Go to Key Features procedure</a> </p>
+<!--    <code style="block" lang="c#">-->
+<!--        public void Test&lt;T&gt;()-->
+<!--        {-->
+<!--        }-->
+<!--    </code>-->
 </topic>

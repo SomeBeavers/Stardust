@@ -6,6 +6,7 @@
                  name="Dragon Age"
                  start-page="Product_Starting_Page.xml">
 
+
     <toc-element id="Dragon Age-default.xml"/>
     <toc-element id="Dragon_Age__Origins.xml"/>
     <toc-element id="Dragon_Age_2.md" custom-title="Dragon Age II (custom title)"/>
@@ -26,6 +27,7 @@
         <chunk include-id="reuse_topics">
             <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
             <toc-element id="Code_Snippets.xml"/>
+            <toc-element id="EscapeXML.xml"/>
         </chunk>
 
     </toc-element>

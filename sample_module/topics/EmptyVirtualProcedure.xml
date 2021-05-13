@@ -7,5 +7,10 @@
        id="EmptyVirtualProcedure">
 
     <p>Link to DeleteMe2 <a href="DeleteMe2.xml">My link</a> .</p>
+    <chunk>
+        <code product="sp">
+            void Test&lt;T&gt;(){}
+        </code>
+    </chunk>
 
 </topic>
