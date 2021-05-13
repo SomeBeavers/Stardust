@@ -8,26 +8,30 @@
 
     <p>Start writing here.</p>
     <p>"'></p>
-        <chapter title="MyChap" id="mychap"/>
-        <p><!-- "'<>& --></p>
-        <p>'</p>
-        <p>"</p>
-        <p>&amp;</p>
-        <p>&lt;</p>
-        <p>&lt;&gt;</p>
-        <p>></p>
+    <chapter title="MyChap" id="mychap"/>
+    <p><!-- "'<>& --></p>
+    <p>'</p>
+    <p>"</p>
+    <p>&&&</p>
+    <p>
+        <
+    </p>
+    <p>
+        <>
+    </p>
+    <p>>>>text></p>
 
     <chapter title="Text with special characters defined in .dtd">
         <p>
-            A &mdash; B &oslash; >{caret}
+            From .dtd : &mdash; &oslash; Red code: &Epsilon; Escape: >{caret}
         </p>
     </chapter>
-        <p>>"'</p>
-        <p>
-            <emphasis>&lt;text in&gt;</emphasis>
-        </p>
+    <p>>"'</p>
+    <p>
+        <emphasis>&lt;text in&gt;</emphasis>
+    </p>
     <warning>
-        <p><![CDATA[
+        <p>
             $$$ &{caret}warning!!!!
             class GenericClass<>
             {
@@ -36,16 +40,43 @@
             string s = @"{string <p></p>}";
             }
             }
-        ]]></p>
-        <p>
-                        $$$ &amp;{caret}warning!!!!
-            class GenericClass&lt;&gt;
-            {
-            private void Test&lt;U&gt;()
-            {
-            string s = @&quot;{string &lt;p&gt;&lt;/p&gt;}&quot;;
-            }
-            }
         </p>
     </warning>
+    <code lang="c#">
+        using System;
+        using System.Collections.Generic;
+
+
+        namespace ConsoleApp3
+        {
+
+        class Program
+        {
+        static void Main(string[] args)
+        {
+        Console.WriteLine("Hello World!");
+        }
+
+        interface IMyInterface
+        {
+
+        }
+
+        private const double gravity = 9.81;
+
+        private void Test<U_Generic>()
+        {
+        char a = 'a';
+        string s = "'test' \"text\" &&&&&&& \n";
+        List<A> list = new List<A>();
+        list.Add(null);
+        }
+        }
+
+        internal class A
+        {
+        }
+        }
+
+    </code>
 </topic>
