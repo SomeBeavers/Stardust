@@ -21,10 +21,10 @@
         <title product="DA">[DA title] Dragon Age: Origins</title>
         <title product="sp">[SP title] Dragon Age: Origins</title>
         <p>
-            <tooltip tooltip="EAP">EAP</tooltip>
-            <emphasis tooltip="EAP">
-                EAP
-            </emphasis>
+<!--            <tooltip tooltip="EAP">EAP</tooltip>-->
+<!--            <emphasis tooltip="EAP">-->
+<!--                EAP-->
+<!--            </emphasis>-->
             You are a Grey Warden, one of the last of a legendary order of guardians. With the return of an ancient foe
             and the kingdom engulfed in civil war, you have been chosen by fate to unite the shattered lands and slay an
             archdemon once and for all. Start your adventure by picking your race as a Human, Elf, or Dwarf, then your
@@ -34,9 +34,9 @@
         <p>
             Here is the property value:
             <control>
-                <property bundle="default.bundle"
-                          key="warnings.errors"
-                          args="5,0"/>
+<!--                <property bundle="default.bundle"-->
+<!--                          key="warnings.errors"-->
+<!--                          args="5,0"/>-->
             </control>
         </p>
         <chapter title="Plot" id="plot">
