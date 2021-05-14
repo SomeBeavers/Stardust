@@ -6,656 +6,676 @@
        title="EscapeXML"
        id="EscapeXML">
 
-    <p>Start writing here.</p>
-    <p>"'></p>
-    <chapter title="MyChap" id="mychap"/>
-    <p><!-- "'<>& --></p>
-    <p>'</p>
-    <p>"</p>
-    <p>&&&</p>
     <p>
-        <
+    I have escaped symbol: &amp;lt;
     </p>
-    <p>
-        <>
-    </p>
-    <p>>>>text></p>
-
-    <chapter title="Text with special characters defined in .dtd">
-        <p>
-            From .dtd : &mdash; &oslash; Red code: &Epsilon; Escape: >{caret}
-        </p>
-    </chapter>
-    <p>>"'</p>
-    <p>
-        <emphasis>&lt;text in&gt;</emphasis>
-    </p>
-    <warning>
-        <p>
-            $$$ &{caret}warning!!!!
-            class GenericClass<>
-            {
-            private void Test<U>()
-            {
-            string s = @"{string <p></p>}";
-            }
-            }
-        </p>
-    </warning>
-    <code lang="c#" style="block">
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test<U_Generic>()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
+    <code style="block" lang="c#">
+        private void Test&lt;>()
     </code>
-    <code lang="c#" collapsed-title="Big snippet" initial-collapse-state="collapsed" style="block">
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-        using System;
-        using System.Collections.Generic;
-
-
-        namespace ConsoleApp3
-        {
-
-        class Program
-        {
-        static void Main(string[] args)
-        {
-        Console.WriteLine("Hello World!");
-        }
-
-        interface IMyInterface
-        {
-
-        }
-
-        private const double gravity = 9.81;
-
-        private void Test&lt;U_Generic&gt;()
-        {
-        char a = 'a';
-        string s = "'test' \"text\" &&&&&&& \n";
-        List<A> list = new List<A>();
-        list.Add(null);
-        }
-        }
-
-        internal class A
-        {
-        }
-        }
-    </code>
+    <p>
+    I have escaped symbol: &lt;
+    and pasted not escaped string here:
+    </p>
+    <p>
+        I have escaped symbol: &lt;
+        and pasted not escaped string here:
+<!--        <cool string1>-->
+<!--        <cool string2>-->
+<!--        <cool string3>-->
+<!--        <cool string4>-->
+<!--        <cool string5>-->
+<!--        <cool string6>-->
+<!--        <cool string7>-->
+    </p>
+<!--    <p>"'></p>-->
+<!--    <chapter title="MyChap" id="mychap"/>-->
+<!--    <p>&lt;!&ndash; "'<>& &ndash;&gt;</p>-->
+<!--    <p>'</p>-->
+<!--    <p>"</p>-->
+<!--    <p>&&&</p>-->
+<!--    <p>-->
+<!--        <-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <>-->
+<!--    </p>-->
+<!--    <p>>>>text></p>-->
+
+<!--    <chapter title="Text with special characters defined in .dtd">-->
+<!--        <p>-->
+<!--            From .dtd : &mdash; &oslash; Red code: &Epsilon; Escape: >{caret}-->
+<!--        </p>-->
+<!--    </chapter>-->
+<!--    <p>>"'</p>-->
+<!--    <p>-->
+<!--        <emphasis>some text &lt;</emphasis>-->
+<!--    </p>-->
+<!--    <warning>-->
+<!--        <p>-->
+<!--            $$$ &amp;{caret}warning!!!!-->
+<!--            class GenericClass&lt;&gt;-->
+<!--            {-->
+<!--            private void Test&lt;U&gt;()-->
+<!--            {-->
+<!--            string s = @&quot;{string &lt;p&gt;&lt;/p&gt;}&quot;;-->
+<!--            }-->
+<!--            }-->
+<!--        </p>-->
+<!--    </warning>-->
+<!--    <code lang="c#" style="block">-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test<U_Generic>()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--    </code>-->
+<!--    <code lang="c#" collapsed-title="Big snippet" initial-collapse-state="collapsed" style="block">-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--        using System;-->
+<!--        using System.Collections.Generic;-->
+
+
+<!--        namespace ConsoleApp3-->
+<!--        {-->
+
+<!--        class Program-->
+<!--        {-->
+<!--        static void Main(string[] args)-->
+<!--        {-->
+<!--        Console.WriteLine("Hello World!");-->
+<!--        }-->
+
+<!--        interface IMyInterface-->
+<!--        {-->
+
+<!--        }-->
+
+<!--        private const double gravity = 9.81;-->
+
+<!--        private void Test&lt;U_Generic&gt;()-->
+<!--        {-->
+<!--        char a = 'a';-->
+<!--        string s = "'test' \"text\" &&&&&&& \n";-->
+<!--        List<A> list = new List<A>();-->
+<!--        list.Add(null);-->
+<!--        }-->
+<!--        }-->
+
+<!--        internal class A-->
+<!--        {-->
+<!--        }-->
+<!--        }-->
+<!--    </code>-->
 </topic>
