@@ -4,5 +4,5 @@
 
 
 <p>
-Beaver:<img src="beaver.jpg" alt="beaver" width="300"/>
+Beaver:<img src="beaver.jpg" animated="true" alt="beaver" width="300"/>
 </p>

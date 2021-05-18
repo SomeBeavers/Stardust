@@ -7,6 +7,11 @@
        id="EscapeXML2">
 
     <p>Start writing here. &mdash; "</p>
+    <code style="block" lang="c#">
+        &mdash; &LeftArrow;
+        private void Test<>()
+        From .dtd : — ø Red code: Ε Escape: >{caret}
+    </code>
     <code style="block" lang="Java">
         final List<Integer> myNumbers = List.of(1, 2, 3);
     </code>
@@ -20,7 +25,7 @@
         The following symbols will be escaped: " ' > &
     </p>
     <code style="block" lang="XML">
-        Text is here "'>>>&
+        Text is here "'>>>&&mdash;
         <assembly name="TestLib">
             <member name="M:TestLib.MyTestClass.ReverseString(System.String)">
                 <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -31,10 +36,33 @@
             </member>
         </assembly>
     </code>
+    <chapter title="Some example">
+
+        final List<Integer> myNumbers = List.of(1, 2, 3);
+
+        <p>
+            Here goes some other markup.
+        </p>
+
+        final Set<String> myStrings = Set.of("S", "S1", "S2");
+
+    </chapter>
     <chapter>
         Test <A>
         <p>
+            "
+        </p>
+        <p product="'">
 
+        </p>
+        <p>
+            > text
+        </p>
+        <p>
+            < text
+        </p>
+        <p>
+            unresolved escaped symbol: &text; &
         </p>
     </chapter>
     <table>
@@ -45,6 +73,13 @@
             </td>
             <td>
                 "Test"
+                <code style="block" lang="c#"><![CDATA[
+                    class MyGenClass<T> where T: new()
+                    {
+                    private void Test<U>(U u, T t){
+                    }
+                    }
+                ]]></code>
             </td>
         </tr>
     </table>

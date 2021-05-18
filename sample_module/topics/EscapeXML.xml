@@ -10,7 +10,9 @@
     I have escaped symbol: <
     </p>
     <code style="block" lang="c#">
+        &mdash; &LeftArrow;
         private void Test<>()
+        From .dtd : — ø Red code: Ε Escape: >{caret}
     </code>
     <p>
     I have escaped symbol: <
@@ -44,6 +46,9 @@
     <chapter title="Text with special characters defined in .dtd">
         <p>
             From .dtd : &mdash; &oslash; Red code: &Epsilon; Escape: >{caret}
+            <code>
+                private void Test<T>(){}
+            </code>
         </p>
     </chapter>
     <p>>"'</p>

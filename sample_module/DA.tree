@@ -32,6 +32,7 @@
             <toc-element id="DeleteMe3_md.md"/>
             <toc-element id="Preview_xml.xml" include-id="Preview"/>
             <toc-element id="Preview_md.md"/>
+            <toc-element id="Images.xml"/>
         </chunk>
 
     </toc-element>
