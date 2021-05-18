@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Escape_Main"
+       id="Escape_Main" auxiliary-id="EscapeXML3">
+
+    <chapter title="All escapable symbols" id="all-escapable-symbols">
+        <table>
+            <tr>
+                <td>
+                    '
+                </td>
+                <td>
+                    "
+                </td>
+                <td>
+                    >
+                </td>
+                <td>
+                    &
+                </td>
+                <td>
+                    <
+                </td>
+                <td>
+                    "
+                    comment: <!-- "'<>& -->
+                </td>
+                <td>
+                    From .dtd : &mdash; &oslash; Red code: &Epsilon; Escape: >{caret}
+                    From .dtd : — ø Red code: Ε Escape: >{caret}
+                    <p>
+                        From .dtd : — ø Red code: Ε Escape: >{caret}
+                    </p>
+                </td>
+                <td>
+                    Several in row: <"@text> &
+                    double escaping :(((( &#38;
+                    <p>not escaped ></p>
+                </td>
+                <td>
+                    Some symbols are escaped &lt;A&gt;
+                    and pasted not escaped string here:
+                    <cool string1>
+                    <cool string2>
+                    <cool string3>
+                    <cool string4>
+                    <cool string5>
+                    <cool string6>
+                    <cool string7>
+                </td>
+            </tr>
+        </table>
+    </chapter>
+    <chapter title="Symbols from dtd should not be escaped" id="symbols-from-dtd-should-not-be-escaped">
+        <warning>
+            <p>
+                Do not escape me: &mdash; &DownArrow; &unresolved;
+                Okaaay, escape me: <"> ' > &>
+                Mix: <&unresolved;> <&mdash; <&Name>()
+            </p>
+        </warning>
+    </chapter>
+
+    <chapter title="Usual escape cases" id="usual-escape-cases">
+        <code lang="c#" style="block">
+            private void Test<T>()
+            {
+                string s = @"myString";
+                string s2 = "<&>";
+            }
+            private void Test<U_Generic>()
+            {
+            char a = 'a';
+            string s = "'test' \"text\" &&&&&&& \n";
+            List<A> list = new List<A>();
+            list.Add(null);
+            }
+            }
+        </code>
+        <code style="block" lang="Java">
+            final List<Integer> myNumbers = List.of(1, 2, 3);
+        </code>
+        <code style="block" lang="xml">
+            <assembly name="TestLib">
+                <member name="M:TestLib.MyTestClass.ReverseString(System.String)">
+                    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+                    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+                    <parameter name="inputString">
+                        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+                    </parameter>
+                </member>
+            </assembly>
+        </code>
+    </chapter>
+
+    <chapter title="CDATA" id="cdata">
+        <code lang="xml" style="block"><![CDATA[
+            <tip>
+                I am Tip
+            </tip>
+            ]]>
+        </code>
+        <code style="block" lang="c#"><![CDATA[
+                    class MyGenClass<T> where T: new()
+                    {
+                    private void Test<U>(U u, T t){
+                    }
+                    }
+                ]]>
+        </code>
+    </chapter>
+
+    <chapter title="Unusual escape cases" id="unusual-escape-cases">
+        <p>
+            string s = "<&>";{caret}
+        </p>
+        <chapter title="'Escape in attribute'"&<>'">
+        </chapter>
+        <code lang="c#" style="block">
+            private void Test&lt;Test>()
+            {
+
+            }{caret}
+        </code>
+    </chapter>
+</topic>

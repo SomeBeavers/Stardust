@@ -9,8 +9,8 @@
     <p>Start writing here. &mdash; "</p>
     <code style="block" lang="c#">
         &mdash; &LeftArrow;
-        private void Test<>()
-        From .dtd : — ø Red code: Ε Escape: >{caret}
+        private void Test&lt;&gt;()
+        From .dtd : &#8212; &#248; Red code: &#917; Escape: &gt;{caret}
     </code>
     <code style="block" lang="Java">
         final List<Integer> myNumbers = List.of(1, 2, 3);
@@ -22,7 +22,10 @@
         }{caret}
     </code>
     <p>
-        The following symbols will be escaped: " ' > &
+        <&Name>()
+    </p>
+    <p>
+        The following symbols will be escaped: " ' >&>
     </p>
     <code style="block" lang="XML">
         Text is here "'>>>&&mdash;
@@ -83,4 +86,51 @@
             </td>
         </tr>
     </table>
+
+    <chapter title="Some example">
+
+        final List&lt;Integer&gt; myNumbers = List.of(1, 2, 3);
+
+        <p>
+            Here goes some other markup.
+        </p>
+
+        final Set&lt;String&gt; myStrings = Set.of(&quot;S&quot;, &quot;S1&quot;, &quot;S2&quot;);
+        <p>
+            string s = "<&>";{caret}
+        </p>
+    </chapter>
+    <p>
+        <&>
+    </p>
+    <code style="block" lang="c#">
+        private void Test<T>()
+        {
+        string <&>
+        }
+
+    </code>
+    <chapter title="Escape all" id="escape-all">
+        <table>
+            <tr>
+                <td>
+                    Code example: `private T Test&lt;T&gt;(){}`
+                    <code style="block" lang="c#">
+                        private T Test&lt;T&gt;()
+                        {
+                        }
+                    </code>
+                </td>
+            </tr>
+        </table>
+    </chapter>
+    <code lang="c#" style="block">
+        public class Test<T> where T: class
+        {
+            private void Test1()
+                {
+                    string s = "<&>";
+                }
+        }
+    </code>
 </topic>

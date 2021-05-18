@@ -30,6 +30,9 @@
         />
 
         <img
+                id="id"
+                product="DA"
+                nullable="false"
                 src="ReSharper.png"
                 alt="ReSharper"
                 width="512"
@@ -42,5 +45,25 @@
                 border-effect="shadow"
                 theme="dark"
         />
+
+        <video
+                id="id"
+                product="DA"
+                nullable="false"
+                src="ReSharper.mp4"
+                width="512"
+                height="256"
+        />
     </chapter>
+
+    <chapter title="Animated + no video" id="animated-no-video">
+        <p>
+            <img src="crow.png" alt="Crow" animated="true" width="256"/>
+        </p>
+    </chapter>
+    <p>
+        Test:
+    </p>
+    <img src="ReSharper.png" alt="ReSharper png" animated="false"/>
+    <img src="DA1.jpg" alt="DA" animated="true"/>
 </topic>
