@@ -11,4 +11,36 @@
     <img src="ReSharperJPG.jpg" alt="ReSharper JPG" animated="true" width="200"/>
     <img src="ReSharperJPG.jpg" alt="ReSharper JPG" animated="false" width="200"/>
     <img src="beaver.jpg" alt="Beaver" animated="true" width="360"/>
+
+    <chapter title="Images with all attributes" id="image-with-all-attributes">
+        <img
+                src="ReSharper.png"
+                alt="ReSharper"
+                width="512"
+                height="256"
+                type="joined"
+                align="bottom"
+                thumbnail="true"
+                thumbnail-same-file="false"
+                retina="false"
+                animated="false"
+                scale="1"
+                border-effect="shadow"
+                theme="dark"
+        />
+
+        <img
+                src="ReSharper.png"
+                alt="ReSharper"
+                width="512"
+                height="256"
+                type="joined"
+                align="bottom"
+                retina="false"
+                animated="true"
+                scale="1"
+                border-effect="shadow"
+                theme="dark"
+        />
+    </chapter>
 </topic>
