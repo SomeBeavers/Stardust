@@ -12,6 +12,7 @@
         <toc-element toc-title="empty toc element">
             <toc-element id="md6.md"/>
         </toc-element>
+        <include from="DA" target="Preview"/>
     </toc-element>
     <toc-element id="Dragon Age-default.xml">
         <include from="DA" target="da_inquisition_md"/>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="EscapeXML2"
+       id="EscapeXML2">
+
+    <p>Start writing here. &mdash; "</p>
+    <code style="block" lang="Java">
+        final List<Integer> myNumbers = List.of(1, 2, 3);
+    </code>
+    <code lang="c#" style="block">
+        private void Test&lt;Test>()
+        {
+
+        }{caret}
+    </code>
+    <p>
+        The following symbols will be escaped: " ' > &
+    </p>
+    <code style="block" lang="XML">
+        Text is here "'>>>&
+        <assembly name="TestLib">
+            <member name="M:TestLib.MyTestClass.ReverseString(System.String)">
+                <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+                <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+                <parameter name="inputString">
+                    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+                </parameter>
+            </member>
+        </assembly>
+    </code>
+    <chapter>
+        Test <A>
+        <p>
+
+        </p>
+    </chapter>
+    <table>
+        <tr>
+            "aaaaaaa"<T></T>
+            <td>
+                "Test"
+            </td>
+            <td>
+                "Test"
+            </td>
+        </tr>
+    </table>
+</topic>

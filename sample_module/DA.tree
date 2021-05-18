@@ -28,8 +28,10 @@
             <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
             <toc-element id="Code_Snippets.xml"/>
             <toc-element id="EscapeXML.xml"/>
+            <toc-element id="EscapeXML2.xml"/>
             <toc-element id="DeleteMe3_md.md"/>
-            <toc-element id="Preview_xml.xml"/>
+            <toc-element id="Preview_xml.xml" include-id="Preview"/>
+            <toc-element id="Preview_md.md"/>
         </chunk>
 
     </toc-element>

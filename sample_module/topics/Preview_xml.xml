@@ -3,10 +3,10 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Preview"
+       title="%Preview_Title%"
        id="Preview_xml">
 
-    <chapter title="Preview 1" id="preview-1">
-
+    <chapter title="&apos;Preview 1&apos;" id="preview-1">
+&apos;
     </chapter>
 </topic>

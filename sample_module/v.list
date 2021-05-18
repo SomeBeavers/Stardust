@@ -6,6 +6,6 @@
     <var name="Var_Title" product="sp" value="sp title"/>
     <var name="Var_Title" product="md" value="md title"/>
     <var name="Var_Title" product="DA" value="DA title"/>
-<!--    <var name="Preview_Title" product="DA" value="Preview from DA"/>-->
-<!--    <var name="Preview_Title" product="sp" value="Preview from sp"/>-->
+    <var name="Preview_Title" product="DA" value="Preview from DA"/>
+    <var name="Preview_Title" product="sp" value="Preview from sp"/>
 </vars>
