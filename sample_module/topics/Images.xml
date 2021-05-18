@@ -7,5 +7,8 @@
        id="Images">
 
     <img src="ReSharper.png" alt="ReSharper" animated="true" width="256"/>
+    <img src="ReSharper.png" alt="ReSharper"  width="256"/>
     <img src="ReSharperJPG.jpg" alt="ReSharper JPG" animated="true" width="200"/>
+    <img src="ReSharperJPG.jpg" alt="ReSharper JPG" animated="false" width="200"/>
+    <img src="beaver.jpg" alt="Beaver" animated="true" width="360"/>
 </topic>
