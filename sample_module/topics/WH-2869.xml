@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="WH-2869"
+       id="WH-2869">
+
+    <p>Start writing here.</p>
+    <video href = "4APs6Vg5s4I"
+           title = "Overview of inspections"
+           preview-src="ReSharper.png"
+           product="DA"
+           id="overview_of_inspections"/>
+    <video src="ReSharperJPG.mp4"
+           title = "beaver"
+           preview-src="ReSharper.png"
+           product="DA"
+           id="overview_of_inspections"/>
+</topic>

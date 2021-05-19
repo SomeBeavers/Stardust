@@ -27,8 +27,7 @@
         <chunk include-id="reuse_topics">
             <toc-element id="DeleteMe2.xml" accepts-web-file-names="DeleteMe.html"/>
             <toc-element id="Code_Snippets.xml"/>
-            <toc-element id="EscapeXML.xml"/>
-            <toc-element id="EscapeXML2.xml"/>
+
             <toc-element id="Escape_Main.xml"/>
             <toc-element id="DeleteMe3_md.md"/>
             <toc-element id="Preview_xml.xml" include-id="Preview"/>
@@ -36,5 +35,15 @@
             <toc-element id="Images.xml"/>
         </chunk>
 
+    </toc-element>
+    <toc-element toc-title="Old" draft="true">
+        <toc-element id="EscapeXML.xml"/>
+        <toc-element id="EscapeXML2.xml"/>
+    </toc-element>
+    <toc-element toc-title="YT tickets">
+        <toc-element id="WH-2869.xml"/>
+        <toc-element id="WH-2849.md"/>
+        <toc-element id="WH-2795.md" custom-title="WH-2795: Move deprecated title attribute"/>
+        <toc-element id="WH-2740.md"/>
     </toc-element>
 </product-profile>
