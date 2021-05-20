@@ -39,6 +39,7 @@
     <toc-element toc-title="Old" draft="true">
         <toc-element id="EscapeXML.xml"/>
         <toc-element id="EscapeXML2.xml"/>
+        <toc-element id="DeleteMe3.xml"/>
     </toc-element>
     <toc-element toc-title="YT tickets">
         <toc-element id="WH-2869.xml"/>
