@@ -13,4 +13,11 @@
     <p>
         Normal Text1
     </p>
+    <chapter title="Chapter 1" id="chapter-1">
+        <warning>
+            <p>
+                <a anchor="chapter-1"></a>
+            </p>
+        </warning>
+    </chapter>
 </topic>

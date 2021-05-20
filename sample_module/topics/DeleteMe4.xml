@@ -6,6 +6,15 @@
        title="DeleteMe4"
        id="DeleteMe4">
 
-    <p>Start writing here.</p>
-
+    <p>
+        <a href="DeleteMe3.xml" anchor="chapter-1">Link to chapter</a>
+    </p>
+    <table>
+        <tr>
+            <td>
+                <a href="DeleteMe3.xml" anchor="codeSample">Link to code
+                </a>
+            </td>
+        </tr>
+    </table>
 </topic>
