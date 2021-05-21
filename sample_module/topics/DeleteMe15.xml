@@ -3,9 +3,11 @@
 
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="DeleteMe13"
-       id="DeleteMe13">
+       title="DeleteMe15"
+       id="DeleteMe15">
 
-    <p>Start writing here.</p>
+    <p>Start writing here.
+    <a href="DeleteMe14.xml" anchor="test">Link link</a>
+    </p>
 
 </topic>
