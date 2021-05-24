@@ -7,8 +7,11 @@
        id="DeleteMe16">
 
     <p id="p_xml">
-        <a href="DeleteMe16.md.md" anchor="test"></a>
+        <a href="DeleteMe16.md.md" anchor="code"></a>
+        <a anchor="test"/>
         <anchor name="test"/>
     </p>
+    <chapter title="MyChap" id="my">
+    </chapter>
 
 </topic>

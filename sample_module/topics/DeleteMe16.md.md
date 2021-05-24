@@ -12,4 +12,5 @@ text  <anchor name="test">anchor</anchor>
 [](DeleteMe12.md#header)
 [](DeleteMe12.md#my)
 [](DeleteMe16.xml#p_xml)
+[](DeleteMe16.xml#my)
 
