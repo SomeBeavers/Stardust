@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="DeleteMe16"
+       id="DeleteMe16">
+
+    <p id="p_xml">
+        <a href="DeleteMe16.md.md" anchor="test"></a>
+        <anchor name="test"/>
+    </p>
+
+</topic>
