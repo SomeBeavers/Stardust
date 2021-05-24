@@ -60,4 +60,10 @@
         <toc-element id="WH-2795.md" custom-title="WH-2795: Move deprecated title attribute"/>
         <toc-element id="WH-2740.md"/>
     </toc-element>
+    <toc-element toc-title="Links_md_xml">
+        <toc-element id="xml_link1.xml"></toc-element>
+        <toc-element id="md_link1.md"></toc-element>
+        <toc-element id="xml_link2.xml"/>
+        <toc-element id="md_link2.md"/>
+    </toc-element>
 </product-profile>

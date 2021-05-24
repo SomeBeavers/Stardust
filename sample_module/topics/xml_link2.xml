@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="xml_link2"
+       id="xml_link2">
+    <tabs>
+        <tab title="Navigate to another xml">
+            <p>
+                <a href="xml_link1.xml" anchor="navigate-to-md">Use id as link</a>
+            </p>
+            <p>
+                <a href="xml_link1.xml" anchor="Link1.WithDot">Use id with dot as link</a>
+            </p>
+            <p>
+                <a href="xml_link1.xml" anchor="InnerLink">Use id of inner element as link</a>
+            </p>
+            <p>
+                <a href="xml_link1.xml" anchor="AnchorLink">Use anchor as link</a>
+            </p>
+        </tab>
+    </tabs>
+</topic>

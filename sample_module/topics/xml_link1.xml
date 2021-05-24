@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="xml_link1.xml"
+       id="xml_link1">
+
+    <tabs>
+        <tab title="Navigate to md" id="navigate-to-md">
+            <p>
+                <a href="md_link1.md" anchor="Link1">Use md header as link</a>
+            </p>
+            <p>
+                <a href="md_link1.md" anchor="Link2">Use id as link</a>
+            </p>
+            <p>
+                <a href="md_link1.md" anchor="Link3.WithDot">Use id with dot as link</a>
+            </p>
+            <p>
+                <a href="md_link1.md" anchor="Link4">Use anchor as link</a>
+            </p>
+            <p>
+                <a href="md_link1.md" anchor="Link5">Use id of inner element as link</a>
+            </p>
+        </tab>
+        <tab title="XML links">
+            <table id="Link1.WithDot">
+                <tr>
+                    <td>
+                        <anchor name="AnchorLink"/> Anchor link
+                    </td>
+                    <td>
+                        <p id="InnerLink">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </tab>
+        <tab title="Navigate in same file">
+            <p>
+                <a anchor="navigate-to-md">Use id as link</a>
+            </p>
+            <p>
+                <a anchor="Link1.WithDot">Use id with dot as link</a>
+            </p>
+            <p>
+                <a anchor="InnerLink">Use id of inner element as link</a>
+            </p>
+            <p>
+                <a anchor="AnchorLink">Use anchor as link</a>
+            </p>
+        </tab>
+    </tabs>
+</topic>
