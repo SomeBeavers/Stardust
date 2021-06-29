@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE product-profile
+        SYSTEM "https://resources.jetbrains.com/stardust/product-profile.dtd">
+
+<product-profile id="c"
+                 name="completion_on_video_module"
+                 start-page="About completion_on_video_module.xml">
+
+    <toc-element id="About completion_on_video_module.xml"/>
+</product-profile>
