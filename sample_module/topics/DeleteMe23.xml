@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="DeleteMe23"
+       id="DeleteMe23">
+
+    <tabs>
+        <tab title="Tab 1">
+            <warning>
+                <p>
+                    AAAA
+                </p>
+            </warning>
+        </tab>
+        <tab title="Tab 2">
+            <table>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        11
+                    </td>
+                    <td>
+                        <img width="256" src="ReSharper.png" alt="R#"></img>
+                    </td>
+                </tr>
+            </table>
+        </tab>
+    </tabs>
+</topic>

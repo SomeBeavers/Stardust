@@ -2,6 +2,8 @@
 <include src="ReuseMe.xml" include-id="reuse_DA_img"/>
 # Plot
 
+## Subheader
+
 <tip>
 <p>
 Dragon Age II traces Hawke's rise to power in the political chaos of Kirkwall
@@ -26,6 +28,7 @@ Hawke's story is framed by the narration of **Varric Tethras**, who is being int
 #### Secondary characters
 ##### Cameos
 ###### Misc
+
 
 Gameplay
 ======
