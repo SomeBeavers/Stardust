@@ -13,4 +13,11 @@
 <!--        {-->
 <!--        }-->
 <!--    </code>-->
+
+    <note>
+        <p>
+            Start note
+        </p>
+        <video id="my_vid" src="ReSharper.mp4"/>
+    </note>
 </topic>

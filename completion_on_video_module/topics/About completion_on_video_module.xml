@@ -7,8 +7,20 @@
        id="About completion_on_video_module">
 
     <p>Let's see what we have to say about completion_on_video_module
-        <video src="" preview-src=""/>
+<!--        <video src="четыре.mp4" preview-src="img_video_completion.png"/>-->
+<!--        <video src="Rec2.mp4" preview-src="img_video_completion.png"/>-->
+<!--        <img src="img_video_completion.png" alt="test"/>-->
+<!--        <video src="Rec2.mp4" preview-src="img_video_completion.png"/>-->
     </p>
 
+    <chapter title="Chapter1" id="chapter1">
+        <p>
+            <video src="четыре.mp4" preview-src="img_video_completion.png"/>
+        </p>
+        <p>
+            <video src="beaver.mp4" origin="sample_module"/>
+        </p>
+
+    </chapter>
 
 </topic>

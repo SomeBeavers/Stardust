@@ -12,8 +12,11 @@
             is <keyword>BioWare</keyword>'s third installment in the <emphasis>Dragon Age</emphasis> video game series,
             continuing the journey
             throughout the medieval-themed continent of Thedas introduced in Dragon Age: Origins and Dragon Age II.
+            <video product="cv2" src="Rec0.mp4" preview-src="img_video_completion.png" origin="completion_on_video_module"/>
+            <img product="cv2" src="img_video_completion.png" origin="completion_on_video_module"/>
         </p>
     </microformat>
+
 <!--    <tip-of-the-day>-->
 <!--        <p>-->
 <!--            Tip-->

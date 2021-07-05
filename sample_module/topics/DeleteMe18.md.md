@@ -13,3 +13,10 @@ cell 1
 </td>
 </tr>
 </table>
+<table id="table2">
+<tr>
+<td>
+cell 1 # 2
+</td>
+</tr>
+</table>

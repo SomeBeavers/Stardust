@@ -63,7 +63,7 @@
         <code style="block" lang="vb.net" src="VB1.vb" lines="4,5,6">
 
         </code>
-
+        <video src="beaver.mp4" preview-src="beaver.jpg"/>
     </chapter>
 
     <compare title-before="Before1" title-after="After1" style="top-bottom">
